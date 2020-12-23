@@ -38,7 +38,8 @@ Later some clever guy's expanded this and did the piCorePlayer, which is a very 
 
 So, as i know the background and OS which is underneeth the pCP i figured out howto set it up for my needs\
 The possibility to have an player which automatically change fir-filters etc... when a samplerate is detected\
-The samplerate detection is a hackup UP squeezelite player, which i did with some help from my older son ;-)
+The samplerate detection is a hackup UP squeezelite player, which i did with some help from my older son ;-)... This way is deprecated now, and there\
+are other way's of doing this which work's much better!...
 
 https://www.diyaudio.com/forums/pc-based/349818-camilladsp-cross-platform-iir-fir-engine-crossovers-correction-etc.html
 https://www.picoreplayer.org/
