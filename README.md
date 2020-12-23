@@ -142,7 +142,7 @@ There is a shiny new webinterface, with nice green bars, showing volume level an
 << ---------------------------------- >>
 
 #### py_cdsp_samplerate_control
-Place for the cdsp samplerate control
+NOT DONE YET, Under construction ;-) Place for the cdsp samplerate control
 
 Below show's the tree structure from the py_cdsp_samplerate_control.tcz ::
 ```
@@ -165,7 +165,7 @@ squashfs-root
 << ---------------------------------- >>
 
 #### SuperPlayer_Remote
-Place for the BLE remote
+NOT DONE YET, Under construction ;-) Place for the BLE remote
 
 << ---------------------------------- >>  
 
