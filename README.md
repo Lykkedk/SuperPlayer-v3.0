@@ -23,6 +23,8 @@ to make the script executeable.
 
 The script is then executed like this : ```sudo ./install_rpi_tinycore.sh```
 
+There is a shiny new webinterface, with nice green bars, showing volume level and stuff ;-)
+
 ![CamillaGUI](/CamillaGUI.png)
 
-Good luck ;-)
+Good luck ;-)  [ JesperLykke / user lykkedk @ diyaudio.com ]
