@@ -16,6 +16,9 @@ with Camilladsp ofcause...
 3. [The SuperPlayer Bluetooth controller/remote](#SuperPlayer_Remote)
 
 #### Story
+
+#### SuperPlayer changes fir-filters on the fly when samplerate changes 
+
 Around feburary 2020 i started looking into the possiblities to make some correction for my room & speakers\
 Not easy to get started, but i learned the basic and still learning ofcause ;-)\
 Around the same time, the camilladsp thread over at diyaudio started\
@@ -35,9 +38,9 @@ https://www.diyaudio.com/forums/pc-based/349818-camilladsp-cross-platform-iir-fi
 https://www.picoreplayer.org/
 http://tinycorelinux.net/ & http://forum.tinycorelinux.net/index.php/board,57.0.html
 
+![SuperPlayer Logo](/SuperPlayer_v3.png)
 
-
-
+*My workshop SuperPlayer testrig* 
 
 #### Installer-script 
 ##### (Created and tested on piCore armv7 & piCorePlayer 6.10)
