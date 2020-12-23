@@ -9,8 +9,7 @@ with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i 
 #### Table of Contents
 1. [The Camilla GUI & Camilladsp installer script](#Installer-script)
 2. [The py_cdsp_samplerate_control way of automatic switching samplerate](#py_cdsp_samplerate_control)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+3. [The SuperPlayer Bluetooth controller/remote](#SuperPlayer_Remote)
 
 
 #### Installer-script
@@ -51,8 +50,16 @@ There is a shiny new webinterface, with nice green bars, showing volume level an
 
 ![CamillaGUI](/CamillaGUI.png)
 
+<< ---------------------------------- >>
 
 #### py_cdsp_samplerate_control
+Place for the cdsp samplerate control
 
+<< ---------------------------------- >>
+
+#### SuperPlayer_Remote
+Place for the BLE remote
+
+<< ---------------------------------- >>  
 
 Good luck ;-)  [ JesperLykke / user lykkedk @ diyaudio.com ]
