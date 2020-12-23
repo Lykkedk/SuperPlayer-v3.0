@@ -11,6 +11,6 @@ It could be directly downloaded into the Raspberry Pi with wget...\
 When it's downloaded, unzip and go to the created directory... Then execute ```chmod +x install_rpi_tinycore.sh```\
 to make the script executeable.
 
-The script is run like this : ```sudo ./install_rpi_tinycore.sh```
+The script is executed like this : ```sudo ./install_rpi_tinycore.sh```
 
 Good luck ;-)
