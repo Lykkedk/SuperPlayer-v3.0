@@ -1,4 +1,4 @@
-# SuperPlayer-v3.0
+## SuperPlayer-v3.0
 
 This is intended to be a new howto for a new release of SuperPlayer.
 I have a working BLE (Bluetooth low energy) remote controller on the go, for controlling the Camilladsp volume / play & pause and other stuff.\
@@ -6,7 +6,7 @@ The controller is an ESP32 on battery; it's still under heavy development but lo
 I will also write a guide howto setup diyaudio user [ pi r ]'s excellent samplerate switcher for automatic switching between samplerates in conjunction\
 with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i really like the way [pi r] handled and created her script's... 
 
-### Table of Contents
+#### Table of Contents
 1. [The Camilla GUI & Camilladsp installer script](#Installer-script)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
@@ -15,8 +15,11 @@ with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i 
 
 
 
-### The first thing to try is the script i created to have the newest camilladsp and freind's ::
-### Installer-script
+
+#### Installer-script
+
+##### The first thing to try is the script i created to have the newest camilladsp and freind's ::
+
 I have created an installer script, so to have newest camilladsp-v0.5.0-beta2 along with the GUI.
 
 * camilladsp v0.5.0-beta2      https://github.com/Lykkedk/SuperPlayer_Camilladsp/archive/v0.5.0-beta-2.zip
