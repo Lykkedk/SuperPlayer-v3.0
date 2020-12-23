@@ -7,7 +7,7 @@ I will also write a guide howto setup diyaudio user [pi r]'s excellent samplerat
 with Camilladsp ofcause... 
 ##### To be continued...
 
-Help / thread here on diyaudio.com :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html
+*Help / thread here on diyaudio.com :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html*
 
 #### Table of Contents
 0. [The story behind this](#Story)
