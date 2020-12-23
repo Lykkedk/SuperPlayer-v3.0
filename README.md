@@ -40,6 +40,13 @@ When it's downloaded, unzip ```unzip CDSP-install-v1.0.zip``` and go to the crea
 to make the script executeable.
 
 The script is then executed like this : ```sudo ./install_rpi_tinycore.sh```
+Along with the GUI the installer also install's the Camilladsp version for the new GUI ::
+
+squashfs-root
+└── usr
+    └── local
+        └── bin
+            └── camilladsp
 
 There is a shiny new webinterface, with nice green bars, showing volume level and stuff ;-)
 
