@@ -6,6 +6,14 @@ The controller is an ESP32 on battery; it's still under heavy development but lo
 I will also write a guide howto setup diyaudio user [ pi r ]'s excellent samplerate switcher for automatic switching between samplerates in conjunction\
 with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i really like the way [pi r] handled and created her script's... 
 
+# Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
+
+
 
 ### The first thing to try is the script i created to have the newest camilladsp and freind's ::
 
