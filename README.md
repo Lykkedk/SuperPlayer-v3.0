@@ -6,4 +6,11 @@ I have created an installer script, so to have newest camilladsp-v0.5.0-beta2 al
 The installer is downloaded here :: https://github.com/Lykkedk/SuperPlayer-Extensions/archive/CDSP-install-v1.0.zip
 
 It could be directly downloaded into the Raspberry Pi with wget...\
-```wget https://github.com/Lykkedk/SuperPlayer-Extensions/archive/CDSP-install-v1.0.zip```
+```wget https://github.com/Lykkedk/SuperPlayer-Extensions/archive/CDSP-install-v1.0.zip```\
+
+When it's downloaded, unzip and go to the created directory... Then execute ```chmod +x install_rpi_tinycore.sh```\
+to make the script executeable.
+
+The script is run like this : ```sudo ./install_rpi_tinycore.sh```
+
+Good luck ;-)
