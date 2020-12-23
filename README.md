@@ -37,7 +37,7 @@ When it's downloaded, unzip ```unzip CDSP-install-v1.0.zip``` and go to the crea
 to make the script executeable.
 
 The script is then executed like this : ```sudo ./install_rpi_tinycore.sh```\
-Along with the GUI the installer also install's the Camilladsp(.tcz = piCore package) version for the new GUI ::
+Along with the GUI the installer also install's the Camilladsp(.tcz = piCore package) version for the new GUI ::\
 Filesystem tree structure shown below for camilladsp.tcz
 ```
 squashfs
