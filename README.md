@@ -44,9 +44,9 @@ Along with the GUI the installer also install's the Camilladsp version for the n
 
 squashfs-root\
 └── usr\
-    └── local\
-        └── bin\
-            └── camilladsp\
+        └── local\
+            └── bin\
+                └── camilladsp
 
 There is a shiny new webinterface, with nice green bars, showing volume level and stuff ;-)
 
