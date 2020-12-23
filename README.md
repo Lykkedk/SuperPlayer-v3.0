@@ -10,10 +10,12 @@ with Camilladsp ofcause...
 *Help / thread here on diyaudio.com :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html*
 
 #### Table of Contents
+
 0. [The story behind this](#Story)
-1. [The Camilla GUI & Camilladsp installer script](#Installer-script)
-2. [The py_cdsp_samplerate_control way of automatic switching samplerate](#py_cdsp_samplerate_control)
-3. [The SuperPlayer Bluetooth controller/remote](#SuperPlayer_Remote)
+1. [Setup the Raspberry Pi](#Setup)
+2. [The Camilla GUI & Camilladsp installer script](#Installer-script)
+3. [The py_cdsp_samplerate_control way of automatic switching samplerate](#py_cdsp_samplerate_control)
+4. [The SuperPlayer Bluetooth controller/remote](#SuperPlayer_Remote)
 
 #### Story
 
@@ -41,6 +43,50 @@ http://tinycorelinux.net/ & http://forum.tinycorelinux.net/index.php/board,57.0.
 ![SuperPlayer Logo](/SuperPlayer_v3.png)
 
 *My workshop SuperPlayer testrig* 
+
+#### Setup
+
+##### Download and install piCorePlayer (pCP):
+
+Extend filesystem as instructed for piCorePlayer. \[Main page, Resize
+FS\]
+
+SSH into the pCP/RPI ```ssh tc@192.168.1.95``` (with the right ip number
+ofcause)\
+Default password is: ```piCore``` 
+
+##### Disable onboard analog audio on the Pi:
+
+```
+mount /mnt/mmcblk0p1
+cd /mnt/mmcblk0p1
+nano config.txt
+```
+Near the end of this file, comment-out\[\#\] the 2 lines right after the \#onboard audio delay line\
+It should look like this afterwards:
+```
+# onboard audio overlay
+#dtparam=audio=on
+#audio_pwm_mode=2
+```
+Again save and exit nano\
+Save files on machine and reboot:
+
+```sudo filetool.sh -b``` and 
+```sudo reboot``` (Wait some and ssh into the machine again)
+
+##### Install python 3.6:
+
+```tce-load -w -i python3.6``` (this loads and install’s python3.6 which we
+shall use later)
+
+##### Install needed editor:
+
+```tce-load -w -i nano``` (RPI downloads and installs nano now)
+
+Nano is an easy texteditor\
+Quick use : \[ctrl\] + o = save, \[ctrl\] + x = exit
+
 
 #### Installer-script 
 ##### (Created and tested on piCore armv7 & piCorePlayer 6.10)
