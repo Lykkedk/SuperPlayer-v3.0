@@ -13,6 +13,7 @@ with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i 
 
 
 #### Installer-script
+##### Tested and should work. Created and tested on piCore armv7 & piCorePlayer 6.10
 
 ##### The first thing to try is the script i created to have the newest camilladsp and freind's ::
 
