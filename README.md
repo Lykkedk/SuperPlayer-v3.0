@@ -12,7 +12,8 @@ with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i 
 3. [The SuperPlayer Bluetooth controller/remote](#SuperPlayer_Remote)
 
 
-#### Installer-script ###### Created and tested on piCore armv7 & piCorePlayer 6.10
+#### Installer-script 
+##### (Created and tested on piCore armv7 & piCorePlayer 6.10)
 
 ##### The first thing to try is the script i created to have the newest camilladsp and freind's ::
 
