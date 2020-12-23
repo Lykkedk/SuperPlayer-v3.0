@@ -3,7 +3,7 @@
 This is intended to be a new howto for a new release of SuperPlayer.
 
 
-### The first thing to try is the script i created to have the newest camilladsp and freind's creation.
+### The first thing to try is the script i created to have the newest camilladsp and freind's.
 
 I have created an installer script, so to have newest camilladsp-v0.5.0-beta2 along with the GUI.
 
