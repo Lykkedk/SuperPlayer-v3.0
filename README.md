@@ -9,6 +9,8 @@ with Camilladsp ofcause...
 
 *Help / thread here on diyaudio.com :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html*
 
+<< ---------------------------------- >>
+
 #### Table of Contents
 
 0. [The story behind this](#Story)
@@ -16,6 +18,8 @@ with Camilladsp ofcause...
 2. [The Camilla GUI & Camilladsp installer script](#Installer-script)
 3. [The py_cdsp_samplerate_control way of automatic switching samplerate](#py_cdsp_samplerate_control)
 4. [The SuperPlayer Bluetooth controller/remote](#SuperPlayer_Remote)
+
+<< ---------------------------------- >>
 
 #### Story
 
@@ -43,6 +47,8 @@ http://tinycorelinux.net/ & http://forum.tinycorelinux.net/index.php/board,57.0.
 ![SuperPlayer Logo](/SuperPlayer_v3.png)
 
 *My workshop SuperPlayer testrig* 
+
+<< ---------------------------------- >>
 
 #### Setup
 
@@ -83,15 +89,15 @@ Nano is an easy texteditor\
 Quick use : \[ctrl\] + o = save, \[ctrl\] + x = exit
 
 ##### Save the machine
-
 Save files on machine and reboot:
 
 ```sudo filetool.sh -b``` and 
 ```sudo reboot``` (Wait some and ssh into the machine again)
 
 Now it's a good idea to have your'e DAC or whatever used to work, as to verify installation is good.\
-
 ##### Setup end's here, now you should have a "working" installation to move on with (hopefully)
+
+<< ---------------------------------- >>
 
 #### Installer-script 
 ##### (Created and tested on piCore armv7 & piCorePlayer 6.10)
