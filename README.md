@@ -7,7 +7,7 @@ I will also write a guide howto setup diyaudio user [ pi r ]'s excellent sampler
 with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i really like the way [pi r] handled and created her script's... 
 
 ### Table of Contents
-1. [The Camilla GUI & Camilladsp installer script](#example)
+1. [The Camilla GUI & Camilladsp installer script](#The Camilla GUI & Camilladsp installer script)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
