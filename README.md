@@ -8,7 +8,7 @@ with Camilladsp ofcause... My old original SuperPlayer is deprecated now, and i 
 
 #### Table of Contents
 1. [The Camilla GUI & Camilladsp installer script](#Installer-script)
-2. [Example2](#example2)
+2. [The py_cdsp_samplerate_control way of automatic switching samplerate](#py_cdsp_samplerate_control)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
@@ -50,5 +50,9 @@ squashfs
 There is a shiny new webinterface, with nice green bars, showing volume level and stuff ;-)
 
 ![CamillaGUI](/CamillaGUI.png)
+
+
+#### py_cdsp_samplerate_control
+
 
 Good luck ;-)  [ JesperLykke / user lykkedk @ diyaudio.com ]
