@@ -46,7 +46,8 @@ http://tinycorelinux.net/ & http://forum.tinycorelinux.net/index.php/board,57.0.
 
 #### Setup
 
-##### Download and install piCorePlayer (pCP):
+##### Download and install piCorePlayer (pCP) aka' this one :: 
+https://repo.picoreplayer.org/insitu/piCorePlayer6.1.0/piCorePlayer6.1.0.zip
 
 Extend filesystem as instructed for piCorePlayer. \[Main page, Resize
 FS\]
@@ -69,12 +70,6 @@ It should look like this afterwards:
 #dtparam=audio=on
 #audio_pwm_mode=2
 ```
-Again save and exit nano\
-Save files on machine and reboot:
-
-```sudo filetool.sh -b``` and 
-```sudo reboot``` (Wait some and ssh into the machine again)
-
 ##### Install python 3.6:
 
 ```tce-load -w -i python3.6``` (this loads and install’s python3.6 which we
@@ -87,6 +82,16 @@ shall use later)
 Nano is an easy texteditor\
 Quick use : \[ctrl\] + o = save, \[ctrl\] + x = exit
 
+##### Save the machine
+
+Save files on machine and reboot:
+
+```sudo filetool.sh -b``` and 
+```sudo reboot``` (Wait some and ssh into the machine again)
+
+Now it's a good idea to have your'e DAC or whatever used to work, as to verify installation is good.\
+
+##### Setup end's here, now you should have a "working" installation to move on with (hopefully)
 
 #### Installer-script 
 ##### (Created and tested on piCore armv7 & piCorePlayer 6.10)
