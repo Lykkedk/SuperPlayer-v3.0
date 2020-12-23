@@ -39,9 +39,9 @@ When it's downloaded, unzip ```unzip CDSP-install-v1.0.zip``` and go to the crea
 ```cd /home/tc/SuperPlayer-Extensions-CDSP-install-v1.0``` Then execute ```chmod +x install_rpi_tinycore.sh```
 to make the script executeable.
 
-The script is then executed like this : ```sudo ./install_rpi_tinycore.sh```
-Along with the GUI the installer also install's the Camilladsp version for the new GUI ::
-
+The script is then executed like this : ```sudo ./install_rpi_tinycore.sh```\
+Along with the GUI the installer also install's the Camilladsp(.tcz = piCore package) version for the new GUI ::
+Filesystem tree structure shown below for camilladsp.tcz
 ```
 squashfs
    └── usr
