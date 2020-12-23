@@ -8,9 +8,16 @@ with Camilladsp ofcause...
 ##### To be continued...
 
 #### Table of Contents
+0. [The story behind this](#Story)
 1. [The Camilla GUI & Camilladsp installer script](#Installer-script)
 2. [The py_cdsp_samplerate_control way of automatic switching samplerate](#py_cdsp_samplerate_control)
 3. [The SuperPlayer Bluetooth controller/remote](#SuperPlayer_Remote)
+
+#### Story
+
+
+
+
 
 
 #### Installer-script 
