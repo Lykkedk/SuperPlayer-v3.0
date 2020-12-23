@@ -17,7 +17,7 @@ The installer is downloaded here :: https://github.com/Lykkedk/SuperPlayer-Exten
 It could be directly downloaded into the Raspberry Pi with wget...\
 ```wget https://github.com/Lykkedk/SuperPlayer-Extensions/archive/CDSP-install-v1.0.zip```
 
-When it's downloaded, unzip and go to the created directory...\
+When it's downloaded, unzip ```unzip CDSP-install-v1.0.zip``` and go to the created directory...\
 ```cd /home/tc/SuperPlayer-Extensions-CDSP-install-v1.0``` Then execute ```chmod +x install_rpi_tinycore.sh```
 to make the script executeable.
 
