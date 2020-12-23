@@ -23,4 +23,6 @@ to make the script executeable.
 
 The script is then executed like this : ```sudo ./install_rpi_tinycore.sh```
 
+![SuperPlayer Logo](/SuperPlayer.png)
+
 Good luck ;-)
