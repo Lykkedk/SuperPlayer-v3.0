@@ -86,6 +86,24 @@ There is a shiny new webinterface, with nice green bars, showing volume level an
 #### py_cdsp_samplerate_control
 Place for the cdsp samplerate control
 
+Below show's the tree structure from the py_cdsp_samplerate_control.tcz ::
+```
+squashfs-root
+   ├── home
+   │   └── tc
+   │       └── camilladsp.tar.gz
+   └── usr
+        └── local
+             ├── bin
+             │    ├── camilladsp-config.sh
+             │    ├── samplerate-daemon.py
+             │    ├── samplerate-select.py
+             │    └── squeezelite-cdsp.sh
+             └── tce.installed
+             └── py_cdsp_samplerate_control
+
+```
+
 << ---------------------------------- >>
 
 #### SuperPlayer_Remote
