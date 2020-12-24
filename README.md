@@ -130,9 +130,11 @@ Filesystem tree structure shown below for camilladsp.tcz
 ```
 squashfs
    └── usr
-        └── local
-              └── bin
-                   └── camilladsp
+       └── local
+           └── bin
+               └── camilladsp
+
+
 ```
 
 There is a shiny new webinterface, with nice green bars, showing volume level and stuff ;-)
@@ -146,27 +148,27 @@ NOT DONE YET, Under construction ;-) Place for the cdsp samplerate control
 
 Below show's the tree structure from the py_cdsp_samplerate_control.tcz ::
 ```
-squashfs-root
-├── home
-│   └── tc
-│       ├── camilladsp
-│       │   └── example
-│       │       ├── 44100.yml
-│       │       ├── 48000.yml
-│       │       ├── 88200.yml
-│       │       └── 96000.yml
-│       └── camilladsp.tar.gz
-└── usr
-    └── local
-        ├── bin
-        │   ├── camilladsp-config.sh
-        │   ├── samplerate-daemon.py
-        │   ├── samplerate-select.py
-        │   └── squeezelite-cdsp.sh
-        └── tce.installed
-            └── py_cdsp_samplerate_control
-
-
+squashfs
+   ├── home
+   │   └── tc
+   │       └── camilladsp
+   │           ├── coeffs
+   │           ├── configs
+   │           └── example
+   │               ├── 44100.yml
+   │               ├── 48000.yml
+   │               ├── 88200.yml
+   │               └── 96000.yml
+   │       
+   └── usr
+       └── local
+           ├── bin
+           │   ├── camilladsp-config.sh
+           │   ├── samplerate-daemon.py
+           │   ├── samplerate-select.py
+           │   └── squeezelite-cdsp.sh
+           └── tce.installed
+               └── py_cdsp_samplerate_control
 ```
 
 << ---------------------------------- >>
