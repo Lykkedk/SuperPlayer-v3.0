@@ -134,6 +134,23 @@ squashfs
            └── bin
                └── camilladsp
 ```
+So now we need to start the GUI, which is done by ```sudo /home/tc/StartServer.sh```
+If you wan't to have it start at boot, add the line to bootlocal.sh :: ```nano /opt/bootlocal.sh```
+```
+#!/bin/sh
+# put other system startup commands here
+
+GREEN="$(echo -e '\033[1;32m')"
+
+echo
+echo "${GREEN}Running bootlocal.sh..."
+#pCPstart------
+/usr/local/etc/init.d/pcp_startup.sh 2>&1 | tee -a /var/log/pcp_boot.log
+#pCPstop------
+
+/home/tc/StartServer.sh
+```
+Remember to save the machine ```sudo filetool.sh -b``` :raised_eyebrow:
 
 There is a shiny new webinterface, with nice green bars, showing volume level and stuff ;-)
 
@@ -290,7 +307,25 @@ c@TestRig:~$ camilladsp-config.sh -n example
 
 Sending signal to CamillaDSP to apply configuration: example
 ```
+ When all this is working paste the line ```sudo /usr/local/bin/squeezelite-cdsp.sh start &``` to have it start at boot time :: 
  
+ ```
+tc@TestRig:~$ cat /opt/bootlocal.sh
+
+#!/bin/sh
+# put other system startup commands here
+
+GREEN="$(echo -e '\033[1;32m')"
+
+echo
+echo "${GREEN}Running bootlocal.sh..."
+#pCPstart------
+/usr/local/etc/init.d/pcp_startup.sh 2>&1 | tee -a /var/log/pcp_boot.log
+#pCPstop------
+
+/home/tc/StartServer.sh
+sudo /usr/local/bin/squeezelite-cdsp.sh start &
+ ```
 
 
 << ---------------------------------- >>
