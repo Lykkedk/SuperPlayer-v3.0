@@ -103,7 +103,7 @@ Save files on machine and reboot:
 ```sudo filetool.sh -b``` and 
 ```sudo reboot``` (Wait some and ssh into the machine again)
 
-Now it's a good idea to have your'e DAC or whatever used to work, as to verify installation is good.\
+Now it's a good idea to have your'e DAC or whatever used to work, as to verify installation is good.
 ##### Setup end's here, now you should have a "working" installation to move on with (hopefully)
 
 << ---------------------------------- >>
