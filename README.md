@@ -195,7 +195,7 @@ Directly on the Raspberry this way ::\
 ```tce-load -i py_cdsp_samplerate_control.tcz```
 
 Now add theese 3 lines at the end of your'e onboot.lst
-```nano /mnt/mmcblk0p2/tce/onboot.lst```\
+```nano /mnt/mmcblk0p2/tce/onboot.lst```
 ```
 py_websocket.tcz
 camilladsp.tcz
@@ -215,9 +215,82 @@ bluez-5.54.tcz
 py_websocket.tcz
 camilladsp.tcz
 py_cdsp_samplerate_control.tcz
+```
+Save files on machine and reboot:
+
+```sudo filetool.sh -b``` and 
+```sudo reboot``` (Wait some and ssh into the machine again)
+
+For a start try to made the 44100.yml located in /home/tc/camilladsp/example/44100.yml work with your'e DAC or whatever used.
+Look out for the *format: S32LE* string; make sure your'e DAC can handle it. 
 
 ```
+devices:
+  samplerate: 44100
+  chunksize: 4096
+  queuelimit: 1
 
+  capture:
+    type: File
+    channels: 2
+    filename: /dev/stdin
+    format: S32LE
+  playback:
+    type: Alsa
+    channels: 2
+    device: "hw:0,0"
+    format: S32LE
+
+filters:
+  clipgain:
+    type: Gain
+    parameters:
+      gain: 0.0
+      inverted: false
+
+  Baseboost:
+    type: Biquad
+    parameters:
+      type: Highshelf
+      freq: 80
+      gain: -6
+      slope: 6
+
+  volume_lr:
+    type: Volume
+    parameters:
+      ramp_time: 200
+                          
+pipeline:
+- type: Filter
+  channel: 0
+  names:
+    - clipgain
+    - Baseboost
+    - volume_lr
+- type: Filter
+  channel: 1
+  names:
+    - clipgain
+    - Baseboost
+    - volume_lr
+```
+
+When edited to your'e setup try to restart the samplerate control setup like this ::
+```
+c@TestRig:~$ camilladsp-config.sh -n example
+
+- Setting CamillaDSP configuration to: example
+
+- Creates or updates symbolic links in folder: /home/tc/camilladsp
+    44100.yml -> example/44100.yml
+    48000.yml -> example/48000.yml
+    88200.yml -> example/88200.yml
+    96000.yml -> example/96000.yml
+
+Sending signal to CamillaDSP to apply configuration: example
+```
+ 
 
 
 << ---------------------------------- >>
