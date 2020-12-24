@@ -142,7 +142,7 @@ There is a shiny new webinterface, with nice green bars, showing volume level an
 << ---------------------------------- >>
 
 #### py_cdsp_samplerate_control
-NOT DONE YET, Under construction ;-) Place for the cdsp samplerate control
+HOWTO ::
 
 User pi r did explain the setup in a short and really good way :: 
 (See this post here for more :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control-post6388205.html)
@@ -183,6 +183,17 @@ squashfs
            └── tce.installed
                └── py_cdsp_samplerate_control
 ```
+
+#### Quick setup for the impatience one's :star_struck:
+
+The .tcz for the install can be downloaded here :: https://github.com/Lykkedk/SuperPlayer-cdsp-samplerate-control/archive/v1.0.zip
+Directly on the Raspberry this way ::
+```wget https://github.com/Lykkedk/SuperPlayer-cdsp-samplerate-control/archive/v1.0.zip``` 
+```unzip v1.0.zip```
+```cd SuperPlayer-cdsp-samplerate-control-1.0```
+```cp py_cdsp_samplerate_control.tcz /mnt/mmcblk0p2/tce/optional```
+```tce-load -i py_cdsp_samplerate_control.tcz```
+
 
 << ---------------------------------- >>
 
