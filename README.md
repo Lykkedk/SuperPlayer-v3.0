@@ -144,6 +144,23 @@ There is a shiny new webinterface, with nice green bars, showing volume level an
 #### py_cdsp_samplerate_control
 NOT DONE YET, Under construction ;-) Place for the cdsp samplerate control
 
+User pi r did explain the setup in a short and really good way ::
+This is how it works:
+
+The problem:
+CamillaDSP needs to load a new config file whenever the sample rate at its input changes, and can't do that by itself.
+
+The solution:
+
+    We hijack the log output from squeezelite, and sends it to a "named pipe".
+    A Python daemon reads the log messages from the pipe,
+    finds and extracts the sample rate of a new track to be played.
+    Based on which sample rate, the daemon sends a message to CamillaDSP
+    though a websocket call, containing the name of the config file to load.
+
+(A named pipe is a "trick" to make a pipe look like a file, that can be read in real time by another program. Just as with a "normal" pipe, like: ps | grep camilladsp)
+
+
 Below show's the tree structure from the py_cdsp_samplerate_control.tcz ::
 ```
 squashfs
