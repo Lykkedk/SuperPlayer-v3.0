@@ -174,6 +174,8 @@ squashfs
 #### SuperPlayer_Remote
 NOT DONE YET, Under construction ;-) Place for the BLE remote
 
+User TNT over @ diyaudio.com eventually posted this https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control-post6381474.html ... And my journey into Bluetooth / BLE began.
+
 << ---------------------------------- >>  
 
 Good luck :grin: [ JesperLykke / user lykkedk @ diyaudio.com ]
