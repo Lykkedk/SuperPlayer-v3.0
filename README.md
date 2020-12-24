@@ -6,13 +6,13 @@ It's best to take one step at a time, e.g follow the *Table of Content*...
 Things should be able to work, but my guide here is far from bulletproof :exploding_head:
 Tested on armv7 Raspberry Pi 3B+ & 4...
 
-Remember it's kindoff complicated stuff, and somethings are hard to explain & understand for a start.
+Remember it's kindoff complicated stuff, and somethings are hard to explain & understand.
 
 ##### To be continued...
 
 We have two good way's of automatic samplerate switching now. The most "native" one is the Alsa like plugin ::
 https://github.com/Lykkedk/Alsa_plugin_cdsp-samplerate-control
-This one is proberly the most correct way of doing this, but i must say, the way user "pi r" over @ diyaudio.com figured out howto do this is working very good also :smiley: This way pi r created it is called *py_cdsp_samplerate_control* (Link #3 in Table of Contents) - I use this setup myself btw...
+This one is proberly the most correct way of doing this, but i must say, the way user "pi r" over @ diyaudio.com figured out howto do this is working very good also :smiley: This way pi r created it is called *py_cdsp_samplerate_control* (Link #3 in Table of Contents) - I use this setup myself btw...\
 ... Well besides that, i have a working BLE (Bluetooth low energy) remote controller on the go, for controlling the Camilladsp volume / play & pause and other stuff. The controller is an ESP32 on battery; it's still under heavy development but look out for it here eventually!
 
 *Help / thread here on diyaudio.com :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html*
