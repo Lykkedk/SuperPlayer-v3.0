@@ -326,6 +326,11 @@ echo "${GREEN}Running bootlocal.sh..."
 /home/tc/StartServer.sh
 sudo /usr/local/bin/squeezelite-cdsp.sh start &
  ```
+#### Hey good luck...
+
+This is complicated stuff, and it's hard to explain different scenarios, look here and please ask quistions if you like ::
+https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control.html
+https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control-post6388205.html
 
 
 << ---------------------------------- >>
