@@ -144,13 +144,12 @@ There is a shiny new webinterface, with nice green bars, showing volume level an
 #### py_cdsp_samplerate_control
 NOT DONE YET, Under construction ;-) Place for the cdsp samplerate control
 
-User pi r did explain the setup in a short and really good way ::
-This is how it works:
+User pi r did explain the setup in a short and really good way :: 
+(See this post here for more :: https://www.diyaudio.com/forums/pc-based/361429-superplayer-dsp_engine-camilladsp-samplerate-switching-esp32-remote-control-post6388205.html)
 
-The problem:
-CamillaDSP needs to load a new config file whenever the sample rate at its input changes, and can't do that by itself.
-
-The solution:
+*The problem:*
+*CamillaDSP needs to load a new config file whenever the sample rate at its input changes, and can't do that by itself.*
+*The solution:*
 
     We hijack the log output from squeezelite, and sends it to a "named pipe".
     A Python daemon reads the log messages from the pipe,
@@ -158,8 +157,7 @@ The solution:
     Based on which sample rate, the daemon sends a message to CamillaDSP
     though a websocket call, containing the name of the config file to load.
 
-(A named pipe is a "trick" to make a pipe look like a file, that can be read in real time by another program. Just as with a "normal" pipe, like: ps | grep camilladsp)
-
+*(A named pipe is a "trick" to make a pipe look like a file, that can be read in real time by another program. Just as with a "normal" pipe, like: ps | grep camilladsp)*
 
 Below show's the tree structure from the py_cdsp_samplerate_control.tcz ::
 ```
