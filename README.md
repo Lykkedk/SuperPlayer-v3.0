@@ -3,7 +3,7 @@
 This is intended to be a new howto for a new release of SuperPlayer.
 We have two good way's of automatic samplerate switching now. The most "native" one is the Alsa like plugin ::
 https://github.com/Lykkedk/Alsa_plugin_cdsp-samplerate-control
-But i must say, the way user "pi r" over @ diyaudio.com figured out howto do this is more like my taste ;-) - The py_cdsp_samplerate_control (Link #3 in Table of Contents)  
+But i must say, the way user "pi r" over @ diyaudio.com figured out howto do this is working very good also. - The py_cdsp_samplerate_control (Link #3 in Table of Contents)  
 ... Well besides that, i have a working BLE (Bluetooth low energy) remote controller on the go, for controlling the Camilladsp volume / play & pause and other stuff. The controller is an ESP32 on battery; it's still under heavy development but look out for it here eventually!
 ##### To be continued...
 
