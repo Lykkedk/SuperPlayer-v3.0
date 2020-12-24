@@ -142,6 +142,27 @@ squashfs
            └── bin
                └── camilladsp
 ```
+Now add theese 2 lines at the end of your'e onboot.lst (Script is telling this too) ::
+```nano /mnt/mmcblk0p2/tce/onboot.lst```
+```
+py_websocket.tcz
+camilladsp.tcz
+```
+Mine looks like this (don't mind the other stuff i have for now) ::
+```
+tc@TestRig:~$ cat /mnt/mmcblk0p2/tce/onboot.lst
+
+pcp.tcz
+pcp-6.1.0-www.tcz
+nano.tcz
+rpi-vc.tcz
+pcp-bt6.tcz
+bluez-5.54.tcz
+py_websocket.tcz
+camilladsp.tcz
+py_cdsp_samplerate_control.tcz
+```
+
 So now we need to start the GUI, which is done by ```sudo /home/tc/StartServer.sh```
 If you wan't to have it start at boot, add the line to bootlocal.sh :: ```nano /opt/bootlocal.sh```
 ```
