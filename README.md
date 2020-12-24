@@ -187,7 +187,7 @@ squashfs
 #### Quick setup for the impatience one's :star_struck:
 
 The .tcz for the install can be downloaded here :: https://github.com/Lykkedk/SuperPlayer-cdsp-samplerate-control/archive/v1.0.zip
-Directly on the Raspberry this way ::
+Directly on the Raspberry this way ::\
 ```wget https://github.com/Lykkedk/SuperPlayer-cdsp-samplerate-control/archive/v1.0.zip```\ 
 ```unzip v1.0.zip```\
 ```cd SuperPlayer-cdsp-samplerate-control-1.0```\
