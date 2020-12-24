@@ -133,8 +133,6 @@ squashfs
        └── local
            └── bin
                └── camilladsp
-
-
 ```
 
 There is a shiny new webinterface, with nice green bars, showing volume level and stuff ;-)
