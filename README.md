@@ -194,6 +194,31 @@ Directly on the Raspberry this way ::\
 ```cp py_cdsp_samplerate_control.tcz /mnt/mmcblk0p2/tce/optional```\
 ```tce-load -i py_cdsp_samplerate_control.tcz```
 
+Now add theese 3 lines at the end of your'e onboot.lst
+```nano /mnt/mmcblk0p2/tce/onboot.lst```\
+```
+py_websocket.tcz
+camilladsp.tcz
+py_cdsp_samplerate_control.tcz
+```
+
+Mine looks like this (don't mind the other stuff i have for now) ::
+```
+tc@TestRig:~$ cat /mnt/mmcblk0p2/tce/onboot.lst
+
+pcp.tcz
+pcp-6.1.0-www.tcz
+nano.tcz
+rpi-vc.tcz
+pcp-bt6.tcz
+bluez-5.54.tcz
+py_websocket.tcz
+camilladsp.tcz
+py_cdsp_samplerate_control.tcz
+
+```
+
+
 
 << ---------------------------------- >>
 
